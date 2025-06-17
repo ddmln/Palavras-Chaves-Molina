@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --cor-destaque: #1a591c;
     --cor-gradiente-preto: linear-gradient(113deg, #f9f5f5 0%, #f8f9fa 44.96%, #f2f2f2 100%);
@@ -8,7 +7,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Montserrat;
+    font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 body {

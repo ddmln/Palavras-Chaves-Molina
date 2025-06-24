@@ -10,7 +10,14 @@ function mostraPalavrasChave() {
     campoResultado.textContent = palavrasChave.join(", ");
 }
 
-function processaTexto(texto){
+function processaTexto(texto) {
     let palavras = texto.split(/\P{L}+/u);
+
+    let frequencias = {};
+    for (let i of palavras) {
+      
+    }
+
+
     return palavras;
 }
